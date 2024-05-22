@@ -292,5 +292,19 @@
         {
             "$ref": "#/definitions/generic_options"
         }
-    ]
+    ],
+    "properties": {
+        "adapters": {
+            "type": "string",
+            "description": "This is adapters"
+        },
+        "save_trimmed_fail": {
+            "type": "boolean",
+            "description": "Hello world"
+        },
+        "save_merged": {
+            "type": "boolean",
+            "description": "Hello again"
+        }
+    }
 }
